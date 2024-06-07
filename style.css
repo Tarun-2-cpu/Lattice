@@ -237,10 +237,6 @@ button{
 .card-2 .card-subtitle{
     margin-bottom:56px;
 }
-
-
-
-
 .swipper{
     padding:30px 0;
 }
@@ -257,7 +253,6 @@ button{
     justify-content: space-between;
     align-items:center;
 }
-
 .details{
     padding:70px 0;
     padding-bottom:90px;
@@ -469,6 +464,13 @@ button{
         justify-content: space-around;
         align-items:center;
     }
+    .swipper-detail .col-3{
+        width:20%;
+    }
+    .swipper-detail .col-3 img{
+        width:100%;
+    }
+
     .details{
         padding:65px 0;
         padding-bottom:70px;
@@ -761,6 +763,8 @@ button{
     .resources .detail-section {
         justify-content: space-between;
     }
+
+
     .footer-top {
         align-items: center;
         justify-content: space-between;
@@ -1143,7 +1147,7 @@ button{
         padding: 30px 0;
     }
     .swipper-title p {
-        font-size: 24px;
+        font-size: 26px;
         text-align: center;
         margin-bottom: 0;
     }
@@ -1156,6 +1160,12 @@ button{
         margin-top: 20px;
     }
 
+    .swipper-detail .col-3{
+        width:35%;
+    }
+    .swipper-detail .col-3 img{
+        width:100%;
+    }
 
     .details{
         padding:40px 0;
@@ -1385,6 +1395,14 @@ button{
         align-items:center;
         gap:30px;
     }
+
+    .swipper-detail .col-3{
+        width:45%;
+    }
+    .swipper-detail .col-3 img{
+        width:100%;
+    }
+
     .details{
         padding:40px 20px;
         padding-bottom:40px;
@@ -1394,10 +1412,11 @@ button{
         width:100%;
     }
     .detail-section{
-        gap:50px;
+        gap:30px;
     }
     .detail{
         padding-right:40px;
+        padding-left:0;
     }
     .detail-section .col-2{
         padding:0;
@@ -1405,7 +1424,7 @@ button{
     .details-title{
         font-size:25px;
         text-align: left;
-        margin-bottom:40px;
+        margin-bottom:20px;
         padding:0px;
     }
     .detail-title{
@@ -1440,7 +1459,6 @@ button{
     .detail-5 {
         margin-top:0px;
     }
-
     .resources .detail-subtitle ul {
         list-style-type: none;
     }
@@ -1467,6 +1485,9 @@ button{
     .footer .footer-link a {
         text-decoration:none;
         margin:8px 0;
+    }
+    .footer .detail{
+        padding-left:20px;
     }
     .footer-bottom{
         margin-top:20px;
@@ -1533,7 +1554,7 @@ button{
     }
     .title{
         font-size:24px;
-        margin-bottom:15px;
+        margin-bottom:18px;
     }
     .subtitle{
         font-size:13px;
@@ -1556,20 +1577,20 @@ button{
         font-weight:800;
     }
     .cards{
-        gap:47px;
+        gap:0px;
         padding:40px 0;
     }
     .cards .col-4{
         width:100%;
     }
     .card{
-        padding:20px 82px;
+        padding:20px 50px;
     }
     .card-img{
         margin-bottom:25px;
     }
     .card-title{
-        font-size:20px;
+        font-size:19px;
         margin-bottom:15px;
         text-align:center;
     }
@@ -1577,11 +1598,6 @@ button{
         font-size:15px;
         margin-bottom:30px;
         text-align:center;
-    }
-    .card-bottom{
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .card-img{
         display: flex;
@@ -1594,12 +1610,17 @@ button{
     .card-2 .card-subtitle{
         margin-bottom:30px;
     }
-
+    .card-1 .card-title{
+        margin-bottom:20px;
+    }
+    .card-1 .card-subtitle{
+        margin-bottom:20px;
+    }
     .swipper{
-        padding:30px 20px;
+        padding:30px 10px;
     }
     .swipper-title p{
-        font-size:23px;
+        font-size:20px;
         text-align:left;
         margin-bottom:30px;
     }
@@ -1611,19 +1632,29 @@ button{
         align-items:center;
         gap:30px;
     }
+    
+    .swipper-detail .col-3{
+        width:80%;
+        padding:0;
+    }
+    .swipper-detail .col-3 img{
+        width:100%;
+    }
+
     .details{
-        padding:40px 20px;
-        padding-bottom:40px;
+        padding:50px 20px;
+        padding-bottom:50px;
     }
     .detail-section .col-2,
     .detail-section .col-3{
         width:100%;
     }
     .detail-section{
-        gap:50px;
+        gap:30px;
     }
-    .detail{
-        padding-right:40px;
+    .detail-section .detail{
+        padding-left:0px;
+        padding-right:0px;
     }
     .detail-section .col-2{
         padding:0;
@@ -1631,8 +1662,11 @@ button{
     .details-title{
         font-size:25px;
         text-align: left;
-        margin-bottom:40px;
+        margin-bottom:20px;
         padding:0px;
+    }
+    .detail-section .col-2{
+        margin-top:0;
     }
     .detail-title{
         margin-bottom:15px;
@@ -1644,6 +1678,9 @@ button{
         color:#535151;
         font-size:15px;
         margin-bottom:15px;
+    }
+    .detail-section-6{
+        text-align:left;
     }
     .detail-bottom{
         font-size:14px;
@@ -1677,26 +1714,51 @@ button{
         background:#0A2175;
         padding-bottom:50px;
     }
+    .resources .detail{
+        text-align: left;
+    }
     .resources .detail-section{
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .detail-section .col-3{
+        padding:0px;
     }
     .footer-top{
         margin-bottom:60px;
         padding-top:50px;
+        justify-content: space-between;
+    }
+    .footer-img img{
+        width:100%;
+    }
+    .footer-img{
+        width:150px;
     }
     .footer .footer-link{
         display:flex;
-        justify-content: space-between;
+        justify-content: left;
         flex-direction: column;
         padding-bottom:0px;
+        text-align: left;
+    }
+    .footer .detail-title{
+        text-align: left;
     }
     .footer .footer-link a {
         text-decoration:none;
         margin:8px 0;
+        font-size:12px;
     }
     .footer-bottom{
         margin-top:20px;
-        gap:20px;
+        gap:10px;
+    }
+    .footer-bottom p,
+    .footer-bottom a{
+        font-size:12px;
+    }
+    .footer .detail{
+        padding-left:30px;
     }
 
 }
@@ -1712,7 +1774,6 @@ button{
     .row{
         flex-wrap: wrap;
     }
-
     nav{
         padding:14px 27px;
     }
@@ -1732,77 +1793,80 @@ button{
     }
     button{
         padding:10px 13px;
-        font-size:14px;
+        font-size:12px;
         font-weight:500;
     }
     .header-bottom{
         padding:10px;
-        padding-left:27px;
+        padding-left:15px;
     }
     .nav-link{
         align-items: center;
-        gap:22px;
+        gap:15px;
     }
     .nav-link a{
-        font-size:14px;
+        font-size:11px;
+    }
+    .nav .logo img{
+        width:100%;
+    }
+    .nav .logo{
+        width:150px;
+    }
+    .search{
+        display: none;
     }
     .hero img{
-        height:400px;
+        height:420px;
         object-fit: cover;
     }
     .title{
-        font-size:32px;
-        margin-bottom:10px;
+        font-size:21px;
+        margin-bottom:18px;
     }
     .subtitle{
-        font-size:14px;
+        font-size:12px;
         margin-bottom:18px;
     }
     .hero-description{
         position:absolute;
-        top:10%;
+        top:30%;
         left:10px;
         width:90%;
     }
     .hero-bottom{
-        padding:14px 0;
+        padding:14px 10px;
         gap:10px;
         justify-content: left;
-        padding-left:20px;
+        text-wrap: wrap;
     }
     .hero-bottom p{
-        font-size: 14px;
+        font-size: 13px;
         font-weight:800;
+        margin-bottom:10px;
     }
-
-
     .cards{
-        gap:47px;
-        padding:70px 0;
+        gap:0px;
+        padding:40px 0;
     }
     .cards .col-4{
         width:100%;
     }
     .card{
-        padding:20px 82px;
+        padding:20px 30px;
     }
     .card-img{
-        margin-bottom:25px;
+        margin-bottom:22px;
     }
     .card-title{
-        font-size:20px;
+        font-size:18px;
         margin-bottom:15px;
         text-align:center;
     }
     .card-subtitle{
-        font-size:15px;
+        font-size:14px;
         margin-bottom:30px;
         text-align:center;
-    }
-    .card-bottom{
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .card-img{
         display: flex;
@@ -1815,12 +1879,17 @@ button{
     .card-2 .card-subtitle{
         margin-bottom:30px;
     }
-
+    .card-1 .card-title{
+        margin-bottom:20px;
+    }
+    .card-1 .card-subtitle{
+        margin-bottom:20px;
+    }
     .swipper{
-        padding:30px 20px;
+        padding:30px 10px;
     }
     .swipper-title p{
-        font-size:23px;
+        font-size:20px;
         text-align:left;
         margin-bottom:30px;
     }
@@ -1832,28 +1901,40 @@ button{
         align-items:center;
         gap:30px;
     }
+    .swipper-detail .col-3{
+        width:80%;
+        padding:0;
+    }
+    .swipper-detail .col-3 img{
+        width:100%;
+    }
+
     .details{
-        padding:40px 20px;
-        padding-bottom:40px;
+        padding:50px 10px;
+        padding-bottom:50px;
     }
     .detail-section .col-2,
     .detail-section .col-3{
         width:100%;
     }
     .detail-section{
-        gap:50px;
+        gap:30px;
     }
-    .detail{
-        padding-right:40px;
+    .detail-section .detail{
+        padding-left:0px;
+        padding-right:0px;
     }
     .detail-section .col-2{
         padding:0;
     }
     .details-title{
-        font-size:25px;
+        font-size:23px;
         text-align: left;
-        margin-bottom:40px;
+        margin-bottom:20px;
         padding:0px;
+    }
+    .detail-section .col-2{
+        margin-top:0;
     }
     .detail-title{
         margin-bottom:15px;
@@ -1866,27 +1947,9 @@ button{
         font-size:15px;
         margin-bottom:15px;
     }
-    .detail-bottom{
-        font-size:14px;
-    }
-    .detail-1 {
-        margin-top:0px;
-    }
-    .detail-2 {
-        margin-top:0px;
-    }
-    .detail-3 {
-        margin-top:0px;
-    }
-    .detail-4 {
-        margin-top:0px;
-    }
-    .detail-6 {
-        margin-top:0px;
-    }
-    .detail-5 {
-        margin-top:0px;
-    }
+
+
+
 
     .resources .detail-subtitle ul {
         list-style-type: none;
@@ -1898,26 +1961,58 @@ button{
         background:#0A2175;
         padding-bottom:50px;
     }
+    .resources .detail{
+        text-align: left;
+    }
     .resources .detail-section{
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .detail-section .col-3{
+        padding:0px;
     }
     .footer-top{
         margin-bottom:60px;
+        padding:0;
         padding-top:50px;
+        justify-content: space-between;
+    }
+    .footer-top button{
+        display: none;
+    }
+    .footer-img img{
+        width:100%;
+    }
+    .footer-img{
+        width:150px;
     }
     .footer .footer-link{
         display:flex;
-        justify-content: space-between;
+        justify-content: left;
         flex-direction: column;
         padding-bottom:0px;
+        text-align: left;
+    }
+    .footer{
+        padding-left:30px;
+    }
+    .footer .detail-title{
+        text-align: left;
     }
     .footer .footer-link a {
         text-decoration:none;
         margin:8px 0;
+        font-size:12px;
     }
     .footer-bottom{
         margin-top:20px;
-        gap:20px;
+        gap:10px;
+    }
+    .footer-bottom p,
+    .footer-bottom a{
+        font-size:10px;
+    }
+    .footer .detail{
+        padding-left:20px;
     }
 
 }
