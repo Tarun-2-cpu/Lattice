@@ -337,7 +337,222 @@ button{
     gap:20px;
 }
 
-@media (max-width:1440px){}
+@media (max-width:1440px){
+    nav{
+        padding:24px 50px;
+    }
+    .nav{
+        align-items:center;
+        justify-content: space-between;
+    }
+    .nav-right{
+        gap:40px;
+    }
+    .search{
+        padding:8px 16px;
+        border:1px solid #E7E6E6;
+    }
+    .search i{
+        color:#828282;
+        margin-right:12px;
+    }
+    .search input{
+        border:none;
+        outline:none;
+    }
+    button{
+        padding:10px 23px;
+        font-size:18px;
+        font-weight:500;
+        outline: none;
+        border:none;
+        border-radius:8px;
+    }
+    .header-bottom{
+        background-color: #ECECEC;
+        padding:20px;
+        padding-left:70px;
+    }
+    .nav-link{
+        align-items: center;
+        gap:47px;
+    }
+    .nav-link a{
+        font-size:14px;
+        color:#4D4D4D;
+        text-decoration: none;
+    }
+    .hero{
+        position:relative;
+    }
+    .hero img{
+        width:100%;
+    }
+    .title{
+        font-size:45px;
+        font-family: "Jomolhari", serif;
+        font-weight: 400;
+        color:#fff;
+        margin-bottom:30px;
+    }
+    .subtitle{
+        font-size:17px;
+        font-weight:400;
+        margin-bottom:30px;
+    }
+    .hero-description{
+        position:absolute;
+        top:30%;
+        left:80px;
+    }
+    .hero-bottom{
+        padding:14px 0;
+        align-items: center;
+        justify-content: center;
+        gap:50px;
+    }
+    .hero-bottom p{
+        font-size: 20px;
+        font-weight:800;
+    }
+    
+    .cards{
+        gap:47px;
+        padding:70px 0;
+    }
+    .card{
+        padding:24px 82px;
+    }
+    .card-img{
+        margin-bottom:25px;
+    }
+    .card-title{
+        font-size:20px;
+        margin-bottom:15px;
+        text-align:center;
+    }
+    .card-subtitle{
+        font-size:15px;
+        margin-bottom:33px;
+        text-align:center;
+    }
+    .card-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-2 .card-title{
+        margin-bottom:40px;
+    }
+    .card-2 .card-subtitle{
+        margin-bottom:56px;
+    }
+    .swipper{
+        padding:30px 0;
+    }
+    .swipper-title p{
+        font-size:30px;
+        text-align:center;
+        margin-bottom:42px;
+    }
+    .swipper-detail{
+        padding-bottom:56px;
+        padding-top:41px;
+        padding-left:62px;
+        padding-right:62px;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .details{
+        padding:70px 0;
+        padding-bottom:90px;
+    }
+    .detail-section{
+        gap:40px;
+    }
+    .detail-section .col-2{
+        padding:0;
+        width:20%;
+    }
+    .details-title{
+        font-size:30px;
+        text-align: center;
+        margin-bottom:67px;
+    }
+    .detail-title{
+        margin-bottom:24px;
+    }
+    .title-5{
+        margin-bottom:8px;
+    }
+    .detail-subtitle{
+        color:#535151;
+        font-size:15px;
+        margin-bottom:14px;
+    }
+    .detail-bottom{
+        font-size:14px;
+    }
+    .detail-1 {
+        margin-top:65px;
+    }
+    .detail-2 {
+        margin-top:30px;
+    }
+    .detail-3 {
+        margin-top:69px;
+    }
+    .detail-4 {
+        margin-top:50px;
+    }
+    .detail-6 {
+        margin-top:110px;
+    }
+    .detail-5 {
+        margin-top:29px;
+    }
+    .resources .detail-subtitle ul {
+        list-style-type: none;
+    }
+    .resources .detail-subtitle li{
+        padding:4px 0;
+    }
+    .resources{
+        background:#0A2175;
+        padding-bottom:100px;
+    }
+    .resources .detail-section{
+        justify-content: space-between;
+    }
+    
+    .footer{
+        background-color:#00044B;
+    }
+    .footer-top{
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom:73px;
+        padding-top:66px;
+    }
+    .footer .footer-link{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom:62px;
+    }
+    .footer .footer-link a {
+        text-decoration:none;
+        margin:8px 0;
+    }
+    .footer-bottom{
+        gap:20px;
+    }
+}
 
 @media (max-width:1280px){
     *{
