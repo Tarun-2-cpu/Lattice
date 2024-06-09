@@ -337,6 +337,95 @@ button{
     gap:20px;
 }
 
+/************ index-2 ***********/
+
+.details-left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:2;
+}
+.upper-img,
+.lower-img {
+    position: absolute;
+}
+.upper-img img,
+.lower-img img{
+    width:100%;
+}
+.upper-img {
+    top: 52%;
+    left: 53%;
+    transform: translate(-100%, -100%) translate(-50%, -50%);
+    z-index: 1;
+}
+.middle-img {
+    position: relative;
+    z-index: 2;
+}
+.lower-img {
+    bottom:17%;
+    right: 21%;
+    transform: translate(50%, 50%);
+    z-index: 1;
+}
+.detail-number{
+    color: rgba(113, 113, 113, 0.49);
+    font-size: 39px;
+}
+.detail-bottom{
+    margin-top:30px;
+}
+.questions .detail-title{
+    font-size:20px;
+}
+.subtitle-container{
+    padding-right:40px;
+}
+.img-section-img img {
+    width: 100%;
+}
+
+.img-section,
+.img-section-img {
+    padding: 0;
+}
+
+.img-text button {
+    font-size: 30px;
+    align-self: center;
+    margin-top: 80px;
+}
+
+.img-text p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.img-section-img {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 110px;
+}
+
+.resources .detail-title{
+    font-size:20px;
+}
+.resources .detail-subtitle li{
+    font-size:15px;
+    margin:10px 0;
+}
+
+
+
 @media (max-width:1440px){
     nav{
         padding:24px 50px;
