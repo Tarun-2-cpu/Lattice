@@ -2222,6 +2222,620 @@ button{
 }
 
 
+@media (max-width: 767px) {
+    .container{
+        width:100%;
+    }
+    * {
+        flex-wrap:wrap;
+    }
+    nav {
+        padding: 20px 30px;
+    }
+    .nav .logo{
+        width:200px;
+    }
+    .nav .logo img{
+        width:100%;
+    }
+    .nav-right {
+        gap: 15px;
+    }
+    .search {
+        padding: 8px 16px;
+    }
+    .search i {
+        color: #828282;
+        margin-right: 0px;
+    }
+    .search input{
+        display: none;
+    }
+    button {
+        padding: 10px 12px;
+        font-size: 14px;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+    }
+    .header-bottom {
+        padding:20px;
+        padding-left:20px;
+    }
+    .nav-link{
+        align-items:center;
+        gap:20px;
+    }
+    .nav-link a {
+        font-size: 14px;
+        color: #4D4D4D;
+        text-decoration: none;
+    }
+    .hero {
+        position: relative;
+    }
+    .hero img{
+       height:400px;
+       width:100%;
+       object-fit: cover;
+    }
+    .title {
+        font-size:20px;
+        font-weight:400;
+        margin-bottom:16px;
+    }
+    .subtitle {
+        font-size:12px;
+        margin-bottom:16px;
+    }
+    .hero-description {
+        position:absolute;
+        top:40%;
+        left:20px;
+        width:60%;
+    }
+    .hero-bottom{
+        padding: 14px 0;
+        align-items: center;
+        justify-content: left;
+        gap: 20px;
+        padding:30px;
+    }
+    .hero-bottom p {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .cards {
+        justify-content: center;
+        gap: 0px;
+        padding:20px 0;
+        flex-wrap: wrap;
+    }
+    .cards .col-4 {
+        width: 50%;
+    }
+    .card{
+        padding:20px;
+        margin-top:50px;
+    }
+    .card-img {
+        margin-bottom:25px;
+    }
+    .card-title {
+        font-size:20px;
+        margin-bottom:15px;
+        text-align:center;
+    }
+    .card-subtitle {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .card-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards .card-1 .card-subtitle{
+        margin-bottom:35px;
+    }
+    .cards .card-3 .card-subtitle{
+        margin-bottom:40px;
+    }
+    .card-2 .card-subtitle {
+        margin-bottom: 40px;
+    }
+    .swipper {
+        padding: 30px 0;
+    }
+    .swipper-title p {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .swipper-detail {
+        padding: 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .swipper-detail img {
+        margin-top: 20px;
+    }
+
+    .swipper-detail .col-3{
+        width:35%;
+    }
+    .swipper-detail .col-3 img{
+        width:100%;
+    }
+
+    .details{
+        padding:40px 0;
+    }
+    .detail-section{
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .detail-section .col-2{
+        width:40%;
+        margin-right:20px;
+        margin-top:50px;
+    }
+    .detail-section .col-3{
+        width: 40%;
+    }
+    .detail-section .col-2 {
+        padding: 0;
+    }
+    .detail-section-6{
+        text-align: left;
+    }
+    .details-title{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .title-5{
+        margin-bottom: 8px;
+    }
+    .detail-subtitle{
+        color: #535151;
+        font-size:13px;
+        margin-bottom:14px;
+    }
+    .detail-bottom{
+        font-size: 14px;
+    }
+    .detail {
+        margin-top: 20px;
+    }
+    .detail{
+        padding-left:40px;
+    }
+    .detail-1 {
+        margin-top:50px;
+    }
+    .detail-2{
+        margin-top:20px;    
+    }
+    .detail-3{
+        margin-top:30px;
+    }
+    .detail-4 {
+        margin-top:25px;
+    }
+    .detail-6 {
+        margin-top:75px;
+    }
+    .detail-5 {
+        margin-top:20px;
+    }
+    .resources .detail-subtitle ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .resources .detail-subtitle li {
+        padding: 6px 0;
+    }
+    .resources {
+        background: #0A2175;
+        padding-bottom: 30px;
+    }
+    .resources .detail-section {
+        justify-content: flex-start;
+        gap:70px;
+    }
+    .resources .details-title{
+        text-align: left;
+    }
+    .resources .detail{
+        padding-left:0;
+    }
+    .resources{
+        padding-left:40px;
+    }
+    .footer-top {
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        padding: 0 30px;
+        padding-top: 30px;
+    }
+    .footer-middle .detail{
+        padding:0;
+    }
+    .footer .footer-link {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .footer .footer-link a {
+        text-decoration: none;
+        margin: 12px 0;
+    }
+    .footer-bottom {
+        gap: 20px;
+    }
+
+    /************** Generative    **************/
+
+    .generative .details-left,
+    .generative .details-right{
+        width:100%;
+    }
+    .generative .details-right{
+        margin-top:80px;
+    }
+
+    .questions{
+        padding-top:100px;
+    }
+
+    .details-left {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index:2;
+    }
+    .generative .question-top{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .upper-img,
+    .lower-img {
+        position: absolute;
+    }
+    .upper-img img,
+    .lower-img img{
+        width:100%;
+    }
+    .upper-img {
+        top: 55%;
+        left: 60%;
+        transform: translate(-100%, -100%) translate(-50%, -50%);
+        z-index: 1;
+    }
+    .middle-img {
+        position: relative;
+        z-index: 2;
+    }
+    .lower-img {
+        bottom:5%;
+        right: 19%;
+        transform: translate(50%, 50%);
+        z-index: 1;
+    }
+    .detail-number{
+        color: rgba(113, 113, 113, 0.49);
+        font-size: 33px;
+    }
+    .detail-bottom{
+        margin-top:35px;
+    }
+    .generative .detail{
+        padding-left:10px;
+    }
+    .generative .detail{
+        padding-right:0px;
+    }
+    .generative .details-right {
+        margin-top: 120px;
+    }
+    .questions .detail-title{
+        font-size:16px;
+    }
+    .question-top .col-3{
+        width:33%;
+    }
+
+    .subtitle-container{
+        padding-right:10px;
+    }
+    .img-section-img img {
+        width: 100%;
+        filter:brightness(65%)
+    }
+    
+    .img-section,
+    .img-section-img {
+        padding: 0;
+    }
+    
+    .img-text button {
+        font-size: 16px;
+        align-self: center;
+        margin-top: 50px;
+    }
+    
+    .img-text p {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .img-section-img {
+        position: relative;
+    }
+    
+    .img-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 0 80px;
+        width:98%;
+    }
+    
+    .resources .detail-title{
+        font-size:20px;
+    }
+    .resources .detail-subtitle li{
+        font-size:15px;
+        margin:10px 0;
+    }
+    .question{
+        position: relative;
+        overflow: hidden;
+    }
+    .question::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('images/vector.png') no-repeat center;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.6;
+        z-index: -1;
+    }
+
+    .generative .detail-section .question-top,
+    .generative .detail-section .question-bottom{
+        justify-content: flex-start;
+        margin:auto;
+    }
+
+    
+    /********* ai-services **********/
+
+    .ai-services .hero-description{
+        width:70%;
+    }
+    .question .detail{
+        padding-right:10px;
+    }
+    .questions .detail-title{
+        font-size: 15px;
+    }
+    .questions .detail-section{
+        padding-left:50px;
+    }
+    .no-2,
+    .no-4{
+        margin-top:35px;
+    }
+    .index-2 .img-text{
+        padding: 0 100px;
+    }
+    .benefit{
+        padding-top:32px;
+    }
+    .benefit-title{
+        margin-bottom:34px;
+    }
+    .benefit-title p{
+        font-size:30px;
+        color:#4D4D4D;
+        text-align: center;
+    }
+    .benefit-links a{
+        color:#4D4D4D;
+        font-size: 16px;
+    }
+    .benefit-links{
+        align-items: center;
+        justify-content: flex-start;
+        gap:20px;
+    }
+    .benefit-detail{
+        flex-wrap:wrap;
+    }
+    .benefit-left{
+        padding-left:25px;
+    }
+    .benefit-left,
+    .benefit-right{
+        width:100%;
+    }
+    .benefit-left p{
+        font-size:25px;
+        margin-bottom:40px;
+    }
+    .use-case .benefit-left p:last-of-type{
+        font-size:18px;
+    }
+    .benefit-left{
+        padding-top:60px;
+    }
+    .use-case .benefit-left {
+        padding-right:20px;
+    }
+    .benefit-detail{
+        justify-content: center;
+    }
+    .learn{
+        border:1px solid #0A2175;
+        margin-left: 25px;
+    }
+    .use-case .benefit-detail{
+        align-items:center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .use-case .benefit-right{
+        height:100%;
+        padding-top:70px;
+        margin:0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   .ai .details-title {
+        font-size: 25px;
+        text-align: left;
+        padding-left: 40px;
+        margin-bottom:30px;
+    }
+   .ai .detail-section .col-4{
+        width:50%;
+        padding:0;
+   }
+   .ai .detail{
+    padding-left:0px;
+    padding-right:20px;
+   }
+
+
+
+       /************   ml-services      ***************/
+
+    .ml .cards .card-3 .card-subtitle {
+        margin-bottom: 30px;
+    }
+    .ai-ml .detail-section .col-4{
+        width:50%;
+    }
+    .ai-ml .detail {
+        padding-right: 10px;
+    }
+    .ai-ml .detail img{
+        margin-bottom:15px;
+    }
+    .ai-ml .details-title{
+        padding:12px 0;
+    }
+    .ai-ml .detail{
+        padding-left:0px;
+    }
+    .cards-title p{
+        text-align: center;
+        font-size:26px;
+    }
+    .learning{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    .learning .card{
+        border:1px solid #0A2175;
+    }
+    .learning .card-title{
+        text-align:left;
+    }
+    .learning .card-subtitle{
+        text-align:left;
+    }
+    .learning .index-3 .card-1 .card-title {
+        margin-bottom: 15px;
+    }
+    .learning .index-3 .card-2 .card-title {
+        margin-bottom: 10px;
+    }
+    .learning .index-3 .card-3 .card-subtitle {
+        margin-bottom: 5px;
+    }
+    .learning .index-3 .card-subtitle {
+        font-size: 15px;
+        margin-bottom:20px;
+    }
+    .learning .index-3 .card-1 .card-subtitle {
+        margin-bottom: 4px;
+    }
+    .learning .cards{
+        padding-bottom:0px;
+    }
+    .lattice .detail{
+        padding-right:30px;
+    }
+    .lattice-detail{
+        margin-bottom:45px;
+    }
+    .lattice-subtitle-2{
+        margin-bottom:37px;
+    }
+    .index-3-use-case .benefit-title p{
+        text-align: left;
+    }
+    .index-3-use-case .benefit-title{
+        padding-left:40px;
+    }
+    .index-3-use-case .benefit-detail{
+        flex-wrap:wrap;
+    }
+    .index-3-use-case .benefit-left {
+        padding-left: 30px;
+        width:100%;
+        padding-right:60px;
+    }
+    .index-3-use-case .benefit-links{
+        justify-content: flex-start;
+        gap:20px;
+        padding-left:40px;
+    }
+
+    .index-3-use-case .benefit-right {
+        width:100%;
+        margin-top:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .index-3-use-case .benefit-right img{
+        width:100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 640px) {
     .container{
