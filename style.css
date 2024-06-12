@@ -1299,6 +1299,61 @@ button{
         height:100%;
         padding-top:115px;
     }
+
+
+    /************   ml-services      ***************/
+
+    .ai-ml .detail {
+        padding-right: 10px;
+    }
+    .ai-ml .detail img{
+        margin-bottom:15px;
+    }
+    .ai-ml .details-title{
+        padding:12px 0;
+    }
+    .cards-title p{
+        text-align: center;
+        font-size:30px;
+    }
+    .learning{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    .learning .card{
+        border:1px solid #0A2175;
+    }
+    .learning .card-title{
+        text-align:left;
+    }
+    .learning .card-subtitle{
+        text-align:left;
+    }
+    .learning .index-3 .card-1 .card-title {
+        margin-bottom: 15px;
+    }
+    .learning .index-3 .card-2 .card-title {
+        margin-bottom: 10px;
+    }
+    .learning .index-3 .card-3 .card-subtitle {
+        margin-bottom: 40px;
+    }
+    .learning .index-3 .card-subtitle {
+        font-size: 15px;
+        margin-bottom:20px;
+    }
+    .learning .cards{
+        padding-bottom:0px;
+    }
+    .lattice .detail{
+        padding-right:75px;
+    }
+    .lattice-detail{
+        margin-bottom:45px;
+    }
+    .index-3-use-case .benefit-left {
+        padding-left: 10px;
+    }
 }
 
 
@@ -1726,6 +1781,84 @@ button{
         padding-top:115px;
     }
 
+
+        /************   ml-services      ***************/
+
+    .ml .cards .card-3 .card-subtitle {
+        margin-bottom: 25px;
+    }
+    .ai-ml .detail {
+        padding-right: 10px;
+    }
+    .ai-ml .detail img{
+        margin-bottom:15px;
+    }
+    .ai-ml .details-title{
+        padding:12px 0;
+    }
+    .ai-ml .detail{
+        padding-left:0px;
+    }
+    .cards-title p{
+        text-align: center;
+        font-size:30px;
+    }
+    .learning{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    .learning .card{
+        border:1px solid #0A2175;
+    }
+    .learning .card-title{
+        text-align:left;
+    }
+    .learning .card-subtitle{
+        text-align:left;
+    }
+    .learning .index-3 .card-1 .card-title {
+        margin-bottom: 15px;
+    }
+    .learning .index-3 .card-2 .card-title {
+        margin-bottom: 10px;
+    }
+    .learning .index-3 .card-3 .card-subtitle {
+        margin-bottom: 20px;
+    }
+    .learning .index-3 .card-subtitle {
+        font-size: 15px;
+        margin-bottom:20px;
+    }
+    .learning .cards{
+        padding-bottom:0px;
+    }
+    .lattice .detail{
+        padding-right:60px;
+    }
+    .lattice-detail{
+        margin-bottom:45px;
+    }
+    .index-3-use-case .benefit-detail{
+        flex-wrap:wrap;
+    }
+    .index-3-use-case .benefit-left {
+        padding-left: 30px;
+        width:100%;
+    }
+    .index-3-use-case .benefit-links{
+        justify-content: flex-start;
+        gap:20px;
+        padding-left:40px;
+    }
+
+    .index-3-use-case .benefit-right {
+        width:100%;
+        margin-top:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 
@@ -1998,6 +2131,94 @@ button{
     }
 
 
+
+        /************   ml-services      ***************/
+
+        .ml .cards .card-3 .card-subtitle {
+            margin-bottom: 30px;
+        }
+        .ai-ml .detail {
+            padding-right: 10px;
+        }
+        .ai-ml .detail img{
+            margin-bottom:15px;
+        }
+        .ai-ml .details-title{
+            padding:12px 0;
+        }
+        .ai-ml .detail{
+            padding-left:0px;
+        }
+        .cards-title p{
+            text-align: center;
+            font-size:26px;
+        }
+        .learning{
+            padding-top:50px;
+            padding-bottom:50px;
+        }
+        .learning .card{
+            border:1px solid #0A2175;
+        }
+        .learning .card-title{
+            text-align:left;
+        }
+        .learning .card-subtitle{
+            text-align:left;
+        }
+        .learning .index-3 .card-1 .card-title {
+            margin-bottom: 15px;
+        }
+        .learning .index-3 .card-2 .card-title {
+            margin-bottom: 10px;
+        }
+        .learning .index-3 .card-3 .card-subtitle {
+            margin-bottom: 20px;
+        }
+        .learning .index-3 .card-subtitle {
+            font-size: 15px;
+            margin-bottom:20px;
+        }
+        .learning .index-3 .card-1 .card-subtitle {
+            margin-bottom: 4px;
+        }
+        .learning .cards{
+            padding-bottom:0px;
+        }
+        .lattice .detail{
+            padding-right:50px;
+        }
+        .lattice-detail{
+            margin-bottom:45px;
+        }
+        .index-3-use-case .benefit-title p{
+            text-align: left;
+        }
+        .index-3-use-case .benefit-title{
+            padding-left:40px;
+        }
+        
+        .index-3-use-case .benefit-detail{
+            flex-wrap:wrap;
+        }
+        .index-3-use-case .benefit-left {
+            padding-left: 30px;
+            width:100%;
+            padding-right:60px;
+        }
+        .index-3-use-case .benefit-links{
+            justify-content: flex-start;
+            gap:20px;
+            padding-left:40px;
+        }
+    
+        .index-3-use-case .benefit-right {
+            width:100%;
+            margin-top:70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 }
 
 
@@ -2499,6 +2720,104 @@ button{
     padding-left:0px;
     padding-right:20px;
    }
+
+
+
+       /************   ml-services      ***************/
+
+    .ml .cards .card-3 .card-subtitle {
+        margin-bottom: 30px;
+    }
+    .ai-ml .detail-section .col-4{
+        width:50%;
+    }
+    .ai-ml .detail {
+        padding-right: 10px;
+    }
+    .ai-ml .detail img{
+        margin-bottom:15px;
+    }
+    .ai-ml .details-title{
+        padding:12px 0;
+    }
+    .ai-ml .detail{
+        padding-left:0px;
+    }
+    .cards-title p{
+        text-align: center;
+        font-size:26px;
+    }
+    .learning{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    .learning .card{
+        border:1px solid #0A2175;
+    }
+    .learning .card-title{
+        text-align:left;
+    }
+    .learning .card-subtitle{
+        text-align:left;
+    }
+    .learning .index-3 .card-1 .card-title {
+        margin-bottom: 15px;
+    }
+    .learning .index-3 .card-2 .card-title {
+        margin-bottom: 10px;
+    }
+    .learning .index-3 .card-3 .card-subtitle {
+        margin-bottom: 5px;
+    }
+    .learning .index-3 .card-subtitle {
+        font-size: 15px;
+        margin-bottom:20px;
+    }
+    .learning .index-3 .card-1 .card-subtitle {
+        margin-bottom: 4px;
+    }
+    .learning .cards{
+        padding-bottom:0px;
+    }
+    .lattice .detail{
+        padding-right:30px;
+    }
+    .lattice-detail{
+        margin-bottom:45px;
+    }
+    .lattice-subtitle-2{
+        margin-bottom:37px;
+    }
+    .index-3-use-case .benefit-title p{
+        text-align: left;
+    }
+    .index-3-use-case .benefit-title{
+        padding-left:40px;
+    }
+    .index-3-use-case .benefit-detail{
+        flex-wrap:wrap;
+    }
+    .index-3-use-case .benefit-left {
+        padding-left: 30px;
+        width:100%;
+        padding-right:60px;
+    }
+    .index-3-use-case .benefit-links{
+        justify-content: flex-start;
+        gap:20px;
+        padding-left:40px;
+    }
+
+    .index-3-use-case .benefit-right {
+        width:100%;
+        margin-top:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .index-3-use-case .benefit-right img{
+        width:100%;
+    }
 
 }
 
@@ -3035,7 +3354,43 @@ button{
         padding: 0 40px;
     }
 
+    /************ ml*************/
 
+    .ai-ml .detail-section .col-4{
+        width:100%;
+    }
+    .questions .detail-section {
+        padding-left: 0px;
+    }
+    .learning .cards-title p{
+        text-align:left;
+    }
+    .learning .cards{
+        padding:0;
+    }
+    .lattice .details{
+        padding:0;
+    }
+    .ai-ml .details-title {
+        padding: 12px 14px;
+    }
+    .index-3-use-case .benefit-title {
+        padding-left: 25px;
+    }
+    .index-3-use-case .benefit-links {
+        justify-content: flex-start;
+        gap: 35px;
+        padding-left: 35px;
+    }
+    .index-3-use-case .benefit-left p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .index-3-use-case .benefit-left {
+        padding-left: 30px;
+        width: 100%;
+        padding-right: 20px;
+    }
 }
 
 
@@ -3448,6 +3803,92 @@ button{
     .generative .detail-section .question-bottom{
         justify-content:flex-start;
         margin:auto;
+    }
+
+    /************ ml*************/
+    .ai .hero-description{
+        width: 100%;
+    }
+    .ai-ml .detail-section .col-4{
+        width:100%;
+        padding:0;
+    }
+    .questions .detail-section {
+        padding-left: 0px;
+    }
+    .learning .cards-title p{
+        text-align:left;
+    }
+    .learning .cards{
+        padding:0;
+    }
+    .lattice .details{
+        padding:0;
+    }
+    .ai-ml .details-title {
+        padding: 12px 14px;
+    }
+    .index-3-use-case .benefit-title {
+        padding-left: 25px;
+    }
+    .index-3-use-case .benefit-links {
+        justify-content: flex-start;
+        gap: 35px;
+        padding-left: 35px;
+    }
+    .index-3-use-case .benefit-left p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .index-3-use-case .benefit-left {
+        padding-left: 30px;
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    .ai .swipper-title p {
+        font-size: 19px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .lattice .details-title {
+        font-size: 20px;
+    }
+
+    .index-3 .img-section-img{
+        margin-top:40px;
+    }
+
+    .index-3-use-case .benefit-title {
+        padding-left:15px;
+    }
+    .index-3-use-case .benefit-links {
+        padding-left: 15px;
+    }
+    .index-3-use-case .benefit-title p {
+        font-size: 20px;
+        color: #4D4D4D;
+        text-align: left;
+    }
+    .index-3 .img-text {
+        position: unset;
+        top: unset;
+        left: unset;
+        transform: unset;
+        text-align: left;
+        padding: 0 20px;
+        width: 98%;
+    }
+
+    .index-3-use-case .benefit-left {
+        padding-left: 8px;
+    }
+    .use-case-button{
+        gap:30px;
+    }
+    .use-case-button .learn{
+        margin-left:0;
     }
 
 }
