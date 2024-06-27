@@ -516,6 +516,46 @@ button:hover{
 .lat .detail-section .question-top .detail{
     flex-wrap: wrap;
 }
+.lat > .detail img{
+    width:100%;
+}
+.lat .savee{
+    width:100%;
+}
+.lat .save-div{
+    width:50%;
+}
+
+@media(max-width:1024px){
+    .lat .detail .col-5{
+        width:65%;
+    }
+    .lat .save-div{
+        width:40%;
+    }
+    .lat .question-top .col-4{
+        width:40%;
+    }
+    .lat .savee{
+        width:90px;
+    }
+}
+@media(max-width:767px){
+    .lat .detail .col-5{
+        width:100%;
+    }
+}
+@media(max-width:480px){
+    .lat .detail .col-5{
+        width:100%;
+    }
+    .lat .save-div{
+        width:30%;
+    }
+    .lat .savee{
+        width:90px;
+    }
+}
 .resources .detail-title{
     font-size:20px;
 }
@@ -665,7 +705,6 @@ button:hover{
 .ai-ml .details-title{
     padding:12px 0;
 }
-
 .ai-ml .detail-section .del .col-4{
     width:25%;
 }
@@ -1204,6 +1243,8 @@ button:hover{
 .bank-text img{
     margin-bottom:37px;
 }
+
+
 
 
 @media (max-width:1440px){
@@ -2662,7 +2703,7 @@ button:hover{
     .index-3-use-case .use-case-subtitle{
         font-size:18px;
     }
-
+    
 
     /****** Home  ******/
 
@@ -3524,7 +3565,13 @@ button:hover{
     .ml .cards .card-3 .card-subtitle {
         margin-bottom: 25px;
     }
-
+    .ai-ml .detail-section .del{
+        justify-content: flex-start;
+        gap:30px 40px;
+    }
+    .ai-ml .detail-section .del .col-4{
+        width:30%;
+    }
     .ai-ml .detail {
         padding-right: 10px;
     }
@@ -3604,7 +3651,9 @@ button:hover{
         align-items: center;
         justify-content: center;
     }
-
+    .lat .question-top .col-4{
+        width:35%;
+    }
 
     /****** Home  ******/
 
@@ -4841,7 +4890,7 @@ button:hover{
     .container{
         width:100%;
     }
-    * {
+    *{
         flex-wrap:wrap;
     }
     nav{
@@ -5023,9 +5072,9 @@ button:hover{
         padding:40px 0;
     }
     .detail-section{
-            gap: 20px 39px;
-            flex-wrap: wrap;
-            justify-content: center;
+        gap: 20px 39px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .detail-section .col-2{
         width:40%;
@@ -5388,10 +5437,21 @@ button:hover{
     padding-right:20px;
    }
 
-
-
-       /************   ml-services      ***************/
-
+    
+   /************   ml-services      ***************/
+   .ai-ml .detail-section .del{
+        justify-content: flex-start;
+        gap:30px 40px;
+    }
+    .ai-ml .detail-section .del .col-4{
+        width:45%;
+    }
+   .im .index-3 .card-img{
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
     .ml .cards .card-3 .card-subtitle {
         margin-bottom: 30px;
     }
@@ -5419,6 +5479,7 @@ button:hover{
     .ai-ml .detail{
         padding-left:0px;
     }
+    
     .cards-title p{
         text-align: center;
         font-size:26px;
@@ -5669,7 +5730,8 @@ button:hover{
     .index-3 .card-img {
         display:block;
     }
-    .index-3 .card-img img{
+    
+    .overview .card-img img{
         width:100%;
     }
     .nvidia-top-left-buttons button{
@@ -7698,6 +7760,14 @@ button:hover{
     }
 
     /************ ml*************/
+
+    .ai-ml .detail-section .del{
+        justify-content: flex-start;
+        gap:0px 40px;
+    }
+    .ai-ml .detail-section .del .col-4{
+        width:100%;
+    }
 
     .ai-ml .detail-section .col-4{
         width:100%;
