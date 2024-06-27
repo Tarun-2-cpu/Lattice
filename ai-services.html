@@ -37,6 +37,9 @@
         </nav>
         <div class="header-bottom">
             <div class="nav-link">
+                <div class="menu-icon row">
+                    <i class="ri-menu-line"></i>
+                </div>
                 <ul class="row">
                     <li>
                         <a href="overview.html">Overview</a>
@@ -186,8 +189,8 @@
                         <div class="details-title col-12">
                             <p class="primary-color weight-700">Why generative AI with Lattice?</p>
                         </div>
-                        <div class="detail-section">
-                            <div class="row">
+                        <div class="detail-section ">
+                            <div class="row question-top">
                                 <div class="col-4">
                                     <div class="detail">
                                         <p class="detail-number">01</p>
@@ -351,7 +354,6 @@
                     <div class="footer-img">
                         <img src="images/footer-logo.jpg" alt="">
                     </div>
-                    <button class="light-background dark-text">Know more</button>
                 </div>
                 <div class="footer-middle">
                     <div class="detail-section row">
@@ -427,6 +429,25 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const menu = document.querySelector('.menu-icon');
+            const navLinks = document.querySelector('.nav-link ul');
+            const menuIcon = menu.querySelector('i');
+
+            menu.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+                if (navLinks.classList.contains('show')) {
+                    menuIcon.classList.remove('ri-menu-line');
+                    menuIcon.classList.add('ri-close-line');
+                } else {
+                    menuIcon.classList.remove('ri-close-line');
+                    menuIcon.classList.add('ri-menu-line');
+                }
+            });
+        });
+    </script>
 
 </body>
 

@@ -37,6 +37,9 @@
         </nav>
         <div class="header-bottom">
             <div class="nav-link">
+                <div class="menu-icon row">
+                    <i class="ri-menu-line"></i>
+                </div>
                 <ul class="row">
                     <li>
                         <a href="overview.html">Overview</a>
@@ -129,7 +132,7 @@
 
 
     <section>
-        <div class="col-12 questions ai-ml">
+        <div class="col-12 questions lat feature ai-ml">
             <div class="container">
                 <div class="details row">
                     <div class="details-right">
@@ -137,7 +140,7 @@
                             <p class="gray-text weight-700">AI and ML features</p>
                         </div>
                         <div class="detail-section">
-                            <div class="row del">
+                            <div class="row del question-top">
                                 <div class="col-4">
                                     <div class="detail row">
                                         <div class="col-4">
@@ -214,7 +217,7 @@
                                 <div class="col-4">
                                     <div class="detail row">
                                         <div class="col-4">
-                                            <img src="images/ai-ml-1.png" alt="">
+                                            <img src="images/qna.png" alt="">
                                         </div>
                                         <div>
                                             <p class="detail-title dt-5 weight-500 gray-text">
@@ -230,7 +233,7 @@
                                 <div class="col-4">
                                     <div class="detail row">
                                         <div class="col-4">
-                                            <img src="images/ai-ml-1.png" alt="">
+                                            <img src="images/savee.png" alt="">
                                         </div>
                                         <div>
                                             <p class="detail-title dt-6 weight-500 gray-text">
@@ -330,15 +333,15 @@
 
 
     <section>
-        <div class="col-12 questions ai-ml lattice">
+        <div class="col-12 questions lat ai-ml lattice">
             <div class="container">
-                <div class="details row">
+                <div class="details">
                     <div class="details-right">
                         <div class="details-title primary-background col-12">
                             <p class="light-text weight-700">Lattice machine learning and generative AI services</p>
                         </div>
                         <div class="detail-section">
-                            <div class="row del">
+                            <div class="row del question-top">
                                 <div class="col-4">
                                     <div class="detail">
                                         <p class="detail-title lattice-subtitle-1 weight-500 primary-color">
@@ -597,7 +600,6 @@
                     <div class="footer-img">
                         <img src="images/footer-logo.jpg" alt="">
                     </div>
-                    <button class="light-background dark-text">Know more</button>
                 </div>
                 <div class="footer-middle">
                     <div class="detail-section row">
@@ -673,6 +675,25 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const menu = document.querySelector('.menu-icon');
+            const navLinks = document.querySelector('.nav-link ul');
+            const menuIcon = menu.querySelector('i');
+
+            menu.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+                if (navLinks.classList.contains('show')) {
+                    menuIcon.classList.remove('ri-menu-line');
+                    menuIcon.classList.add('ri-close-line');
+                } else {
+                    menuIcon.classList.remove('ri-close-line');
+                    menuIcon.classList.add('ri-menu-line');
+                }
+            });
+        });
+    </script>
 
 </body>
 

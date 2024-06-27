@@ -136,7 +136,6 @@ button, a{
 ul,li{
     list-style-type: none;
 }
-
 nav{
     padding:24px 97px;
 }
@@ -174,6 +173,9 @@ button:hover{
     background-color: #ECECEC;
     padding:20px;
     padding-left:97px;
+}
+.nav-link .menu-icon{
+    display:none;
 }
 .nav-link ul{
     align-items: center;
@@ -436,7 +438,7 @@ button:hover{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     z-index:2;
 }
 .upper-img,
@@ -504,6 +506,15 @@ button:hover{
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 0 110px;
+}
+/***************  lat    *************************/
+
+.question .detail-section .question-top,
+.lat .detail-section .question-top{
+    flex-wrap:wrap;
+}
+.lat .detail-section .question-top .detail{
+    flex-wrap: wrap;
 }
 .resources .detail-title{
     font-size:20px;
@@ -648,12 +659,15 @@ button:hover{
 .index-3-use-case .benefit-left{
     padding-top:10px;
 }
-
 .ai-ml .detail {
     padding-right: 10px;
 }
 .ai-ml .details-title{
     padding:12px 0;
+}
+
+.ai-ml .detail-section .del .col-4{
+    width:25%;
 }
 .cards-title p{
     text-align: center;
@@ -713,7 +727,8 @@ button:hover{
     pointer-events: none;
 }
 
-/****** Home  ******/
+
+     /****** Home  ******/
 
 .home button{
     border:1px solid #fff;
@@ -1442,6 +1457,9 @@ button:hover{
         padding:12px;
         background-color: #4d4d4d7a;
     }
+    .questions .row{
+        justify-content: flex-start;
+    }
 
 }
 
@@ -1767,7 +1785,7 @@ button:hover{
 
     /************   ml-services      ***************/
 
-    .ai-ml .detail {
+    .ai-ml .detail{
         padding-right: 10px;
     }
     .ai-ml .detail img{
@@ -1776,7 +1794,6 @@ button:hover{
     .ai-ml .details-title{
         padding:12px 0;
     }
-    .ai-ml .detail
     .cards-title p{
         text-align: center;
         font-size:30px;
@@ -1831,6 +1848,8 @@ button:hover{
     .lt-3{
         margin-bottom:45px;
     }
+
+
 
         /****** Home  ******/
 
@@ -4825,7 +4844,7 @@ button:hover{
     * {
         flex-wrap:wrap;
     }
-    nav {
+    nav{
         padding: 20px 30px;
     }
     .nav .logo{
@@ -4837,7 +4856,7 @@ button:hover{
     .nav-right {
         gap: 15px;
     }
-    .search {
+    .search{
         padding: 8px 16px;
     }
     .search i {
@@ -4859,6 +4878,19 @@ button:hover{
         padding:20px;
         padding-left:20px;
     }
+    .nav-link .menu-icon{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .nav-link ul {
+        display: none;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .nav-link ul.show {
+        display: flex;
+    }
     .nav-link{
         align-items:center;
         gap:20px;
@@ -4867,6 +4899,9 @@ button:hover{
         font-size: 14px;
         color: #4D4D4D;
         text-decoration: none;
+    }
+    .dropdown .dropbtn{
+        padding:5px;
     }
     .dropdown-content{
         padding-left:30px;
