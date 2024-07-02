@@ -7869,7 +7869,7 @@ button:hover{
         width:230px;
     }
     .home-card{
-        padding:0 20px;
+        padding:0 5px;
     }
     .home-card .card-title{
         font-size:18px;
@@ -7970,19 +7970,27 @@ button:hover{
     }
     .overview .hero-description {
         position:absolute;
-        top:20%;
-        right:20px;
-        width:45%;
+        top:40%;
+        left:20px;
+        width:65%;
     }
     .overview .hero-description .title{
         font-size:21px;
+        color:#f2f3f7 !important;
     }
     .overview .hero-description .subtitle{
         font-size:14px;
+        color:#f2f3f7 !important;
     }
     .overview .hero img{
         width:100%;
         object-fit:fill;
+    }
+    .overview .hero img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 2% 51%;
+        filter: brightness(0.6);
     }
     .overview .index-3 .card-3 .card-img {
         margin-bottom: 12px;
@@ -8068,7 +8076,7 @@ button:hover{
         font-size:18px;
     }
     .videos{
-        padding:0 20px;
+        padding:0 5px;
     }
     .play-button{
         width:50px;
@@ -8083,7 +8091,7 @@ button:hover{
         font-size:16px;
     }
     .distribute{
-        padding:0 20px;
+        padding:0 5px;
         padding-top:46px;
         padding-bottom:43px;
         margin-top:50px;
@@ -8150,7 +8158,7 @@ button:hover{
         width:100%;
     }
     .service{
-        padding:40px 30px;
+        padding:40px 15px;
     }
     .service-title{
         font-family: Inter;
@@ -8180,7 +8188,7 @@ button:hover{
     .select{
         padding:10px 29px;
         cursor:pointer;
-        width:40%;
+        width:90%;
         text-wrap: wrap;
         word-break:normal;
         word-wrap:normal;
@@ -8212,7 +8220,7 @@ button:hover{
     }
     .run{
         background-color: #5C50E3;
-        padding:0 30px;
+        padding:0 15px;
         padding-top:71px;
         padding-bottom: 52px;
     }
@@ -8300,17 +8308,18 @@ button:hover{
         width:100%;
     }
     .solutions{
-        padding:69px 30px;
+        padding:69px 15px;
     }
     .solutions .container{
         width:100%;
     }
+    
     .solution .run-title,
     .solution .run-subtitle{
         text-align:left;
     }
     .solution .run-subtitle{
-        width:80%;
+        width:91%;
         margin:0;
         margin-top:18px;
         margin-bottom:40px;
@@ -8355,6 +8364,9 @@ button:hover{
     .solutions .index-3 .card-1 .card-subtitle {
         margin-bottom:60px;
     }
+    .bank-card .col-6{
+        padding:0px;
+    }
     .solution .card{
         padding-left:21px;
         padding-right:21px;
@@ -8396,6 +8408,26 @@ button:hover{
 }
 
 
+@media(max-width:400px){
+    .nav .logo{
+        width:170px;
+    }
+    .search{
+        display:none;
+    }
+    .overview .hero img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 12%;
+        filter: brightness(0.6);
+    }
+    .overview .hero-description {
+        position: absolute;
+        top: 45%;
+        left: 20px;
+        width: 79%;
+    }
+}
 
 
 @media (max-width:360px){
@@ -8531,7 +8563,6 @@ button:hover{
         align-items:center;
         gap:30px;
     }
-    
     .swipper-detail .col-3{
         width:80%;
         padding:0;
@@ -8893,6 +8924,585 @@ button:hover{
         margin-left:0;
     }
 
+
+    /****** Home  ******/
+
+    nav img{
+        width:150px;
+    }
+    .title{
+        font-size:28px;
+        font-family: "Jomolhari", serif;
+        font-weight: 400;
+        color:#fff;
+        margin-bottom:20px;
+    }
+    .subtitle{
+        font-size:16px;
+        font-weight:400;
+        margin-bottom:22px;
+    }
+    .home-card img{
+        width:230px;
+    }
+    .home-card{
+        padding:0 20px;
+    }
+    .home-card .card-title{
+        font-size:18px;
+    }
+    .home-card .card-3 .card-title {
+        margin-bottom: 25px;
+        margin-top:70px;
+    }
+    .home-card .card-3 .card-subtitle {
+        margin-bottom: 30px;
+    }
+    .cloud-cards .col-4{
+        width:100%;
+    }
+    .cloud-cards{
+        gap:40px;
+    }
+    .cloud{
+        padding:30px 0;
+    }
+    .cloud-title-top{
+        font-size: 15px;
+    }
+    .cloud-title{
+        font-size: 22px;
+        margin-bottom:18px;
+    }
+    .cloud-subtitle{
+        font-size:12px;
+        text-align:center;
+    }
+    
+    .cloud-card{
+        padding:15px 30px;
+    }
+    .cloud-card img{
+        margin-bottom:15px;
+    }
+    .cd-2 button{
+        margin-top:25px;
+    }
+    .home .swipper-title {
+        padding-left: 18px;
+        justify-content: left;
+    }
+    .home .swipper-title p:first-of-type{
+        font-size: 24px;
+        margin:0;
+        margin-bottom:20px;
+    }
+    .home .swipper-detail{
+        justify-content: left;
+        gap:20px 80px;
+    }
+    .swipper-detail .col-3 {
+        width: 60%;
+    }
+    .taxi-app{
+        padding:0;
+    }
+    .taxi-app img{
+        width:100%;
+    }
+    .taxi-app-description p{
+        font-size:20px;
+    }
+    .taxi-app-description button{
+        border:2px solid #fff;
+        font-size:15px;
+        margin-left:40px;
+        margin-top:15px;
+        background-color: transparent;
+    }
+    .taxi-app{
+        position:relative;
+    }
+    .taxi-app-description{
+        position:absolute;
+        top:40%;
+        right:5%;
+        padding:0;
+        border:2px solid #fff;
+        padding:8px;
+        width:60%;
+    }
+    .taxi-app-description p{
+        font-size:15px;
+    }
+    .taxi-app-description button{
+        font-size:12px;
+    }
+
+    /****************** Overview   ********************/
+    
+    .overview .hero-description {
+        right:97px;
+        left:unset;
+    }
+    .overview .hero-description {
+        position:absolute;
+        top:20%;
+        right:20px;
+        width:45%;
+    }
+    .overview .hero-description .title{
+        font-size:21px;
+    }
+    .overview .hero-description .subtitle{
+        font-size:14px;
+    }
+    
+    .overview .hero img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 12%;
+        filter: brightness(0.6);
+    }
+    .overview .hero-description {
+        position: absolute;
+        top: 45%;
+        left: 10px;
+        width: 90%;
+    }
+    .overview .index-3 .card-3 .card-img {
+        margin-bottom: 12px;
+    }
+    .overview .card-3 .card-title {
+        margin-bottom: 12px;
+        margin-top: 15px;
+    }
+    /*  */
+    .overview .index-3 .col-4 {
+        padding:0px;
+    }
+    /*  */
+    .overview .index-3 .card {
+        padding: 20px 15px;
+    }
+    .overview .card-3 .card-subtitle {
+        margin-bottom: 15px;
+    }
+    .overview .card-1 .card-subtitle{
+        margin-bottom:12px;
+    }
+    .index-3 .card-img {
+        display:block;
+    }
+    .index-3 .card-img img{
+        width:100%;
+    }
+    .nvidia-top-left-buttons button{
+        border:1px solid #fff;
+        font-size:12px;
+    }
+    .nvidia-top-left-buttons{
+        gap:10px;
+        flex-wrap:nowrap;
+    }
+    .nvidia .nvidia-top{
+        padding:40px 0;
+        justify-content: space-between;
+    }
+    .nvidia-top-left p{
+        font-size:18px;
+        margin-bottom:22px;
+    }
+    .nvidia-top-right p{
+        font-size:13px;
+    }
+    .nvidia-top-left,
+    .nvidia-top-right{
+        width:100%;
+    }
+    .nvidia-top-left{
+        margin-bottom:30px;
+    }
+    .nvidia button{
+        font-size:12px;
+        padding:10px 5px;
+    }
+    .video{
+        width:100%;
+    }
+    .videos{
+        gap:40px;
+    }
+    .video img{
+        width:100%;
+    }
+    .video-box{
+        padding:69px 0px;
+    }
+    .video-buttons{
+        margin-top:14px;
+        gap:16px;
+    }
+    .video-thumb{
+        position:relative;
+    }
+    .video-thumb img{
+        filter: brightness(80%);
+    }
+    .video-description{
+        bottom:17px;
+        left:0px;
+        padding-left:5px;
+        padding-right:15px;
+    }
+    .video-description p{
+        font-size:16px;
+    }
+    .videos{
+        padding:0px;
+    }
+    .play-button{
+        width:50px;
+        height:50px;
+    }
+    .middle .hero-bottom-text{
+        width:80%;
+        margin-bottom:15px;
+        padding:0px;
+    }
+    .middle .hero-bottom-text p{
+        font-size:16px;
+    }
+    /*  */
+    .distribute{
+        padding:0px;
+        padding-top:46px;
+        padding-bottom:43px;
+        margin-top:50px;
+    }
+    .distribute-title{
+        font-size:23px;
+        margin:0;
+        width:100%;
+        margin-bottom:20px;
+        text-align: left;
+    }
+    .distribute-subtitle{
+        font-size:15px;
+        margin:0;
+        margin-bottom:45px;
+        text-align:left;
+        width:100%;
+    }
+    .distribute-text{
+        text-align: center;
+    }
+    .distribute-bottom{
+        flex-wrap: wrap;
+        gap:60px;
+    }
+    .distribute-left,
+    .distribute-right{
+        width:100%;
+    }
+    .distribute-left{
+        padding-left:20px;
+    }
+    .distribute-card{
+        margin-top:20px;
+        padding:15px 0;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .distribute-right{
+        margin-left:20px;
+    }
+    .distribute-right {
+        padding-left: 0px;
+    }
+    .distribute-right img{
+        margin-bottom:20px;
+        width:100%;
+    }
+    .distribute-right button{
+        margin:0 auto;
+    }
+    .distribute-right-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .d-card-title{
+        font-size:18px;
+    }
+    .d-card{
+        font-size:14px;
+    }
+    .ser-con{
+        width:100%;
+    }
+    /*  */
+    .service{
+        padding:40px 15px;
+    }
+    .service-title{
+        font-family: Inter;
+        font-size:22px;
+        margin-bottom:25px;
+    }
+    .service-subtitle{
+        font-family: Inter;
+        font-size: 12px;
+        margin-bottom:30px;
+    }
+    .service-buttons button{
+        padding:7px 8px;
+        font-size:12px;
+    }
+    .service-buttons{
+        gap:15px;
+    }
+    /*  */
+    .service-dropdown{
+        background-color: #D9D9D9;
+        flex-wrap: wrap;
+        gap:10px;
+        padding:10px;
+        margin-top:11px;
+        justify-content:left;
+    }
+    /*  */
+    .select{
+        padding:10px 29px;
+        cursor:pointer;
+        width:100%;
+        text-wrap: wrap;
+        word-break:normal;
+        word-wrap:normal;
+        text-align: left;
+        font-size: 12px;
+        white-space:nowrap;
+        text-overflow:unset;
+    }
+    .select-last{
+        width:90%;
+    }
+    .single-drop{
+        border-radius: 4px;
+        border: 1px solid #000;
+        background: #FFF;
+        margin-top:12px;
+        padding:5px 0;
+    }
+    .single-drop .col-10,
+    .single-drop .col-2{
+        display:flex;
+        text-align:center;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .single-drop p{
+        font-size:12px;
+    }
+    /*  */
+    .run{
+        background-color: #5C50E3;
+        padding:0 15px;
+        padding-top:71px;
+        padding-bottom: 52px;
+    }
+    .run .container{
+        width:100%;
+    }
+    .run-top{
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:23px;
+    }
+    .run-title{
+        font-size:22px;
+        font-family: Inter;
+        margin-bottom:20px;
+    }
+    .run-top a{
+        font-weight:500;
+        text-decoration: underline;
+    }
+    .run-subtitle{
+        font-size:12px;
+        margin-bottom:15px;
+    }
+    .run-bottom-left{
+        padding:0px;
+        width:100%;
+        margin-top:40px;
+    }
+    .run-bottom-right{
+        width:100%;
+        margin-top:40px;
+    }
+    .run-card{
+        width:100%;
+    }
+    .map .run-subtitle{
+        margin-bottom:18px;
+    }
+    .map .container{
+        width:100%;
+    }
+    .map .run-bottom{
+        width:100%;
+    }
+    .map .run-bottom img{
+        width:100%;
+    }
+    .run-button{
+        gap:15px;
+        justify-content: flex-end;
+    }
+    .run-button img{
+        width:100%;
+    }
+    .run-button .calculate{
+        color:#5C50E3;
+    }
+    .vs{
+        border:1px solid #fff;
+        background-color: transparent;
+    }
+    .run-card{
+        padding:19px 0;
+        padding-left:25px;
+        margin-bottom:27px;
+    }
+    .run-card p:nth-of-type(2){
+        font-size:38px;
+        margin:14px 0;
+    }
+    .map .container{
+        width:100%;
+    }
+    .map{
+        background-color: #ECECEA;
+    }
+    .run-bottom-right{
+        position:relative;
+        display:flex;
+        align-items:end;
+        justify-content: baseline;
+    }
+    .run-bottom-right img{
+        width:100%;
+    }
+    /*  */
+    .solutions{
+        padding:69px 15px;
+    }
+    .solutions .container{
+        width:100%;
+    }
+    .solution .run-title,
+    .solution .run-subtitle{
+        text-align:left;
+    }
+    /*  */
+    .solution .run-subtitle{
+        width:100%;
+        margin:0;
+        margin-top:18px;
+        margin-bottom:40px;
+    }
+    .tabs{
+        gap:12px;
+        margin-bottom:20px;
+    }
+    .tab button{
+        background-color: #ECECEC;
+        color:#000;
+        font-size:12px;
+    }
+    .tab-content .content {
+        display: none;
+    }
+    .tab-content .content.active {
+        display: block;
+    }
+    .solutions .card .card-title,
+    .solutions .card .card-subtitle{
+        text-align:left;
+    }
+    .solutions .card .card-subtitle{
+        font-size:12px;
+    }
+    .solutions .cards{
+        padding-top:25px;
+        padding-bottom:0px;
+    }
+    .solutions .card button{
+        margin:0px;
+    }
+    .solutions .index-3 .card-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }   
+    .solutions .index-3 .card-3 .card-subtitle {
+        margin-bottom:20px;
+    }
+    .solutions .index-3 .card-1 .card-subtitle {
+        margin-bottom:30px;
+    }
+    /*  */
+    .solution .bank-card .col-6{
+        padding:0px;
+    }
+    .solution .card{
+        padding-left:21px;
+        padding-right:21px;
+        width:100%;
+    }
+    .solutions .cards{
+        gap:20px;
+    }
+    .bank-img{
+        position:relative;
+        border-radius:8px;
+    }
+    .bank-img .d-bank{
+        width:100%;
+        border-radius:8px;
+    }
+    .bank-text{
+        position:absolute;
+        bottom:10px;
+        right:12px;
+        width:55%;
+        text-align:center;
+        background:#ffffff93;
+        padding:0 8px;
+        padding-top:8px;
+        padding-bottom:8px;
+        border-radius: 8px;
+    }
+    .bank-card .col-6{
+        width:100%;
+    }
+    .bank-card .col-6 .card{
+        margin-top:0px;
+    }
+    .bank-text img{
+        margin-bottom:20px;
+        width:150px;
+    }
+    .bank-text p{
+        font-size:12px;
+    }
+    .bank-text img {
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
 }
 
 
@@ -9145,6 +9755,585 @@ button:hover{
     }
     .footer .detail{
         padding-left:20px;
+    }
+
+    /****** Home  ******/
+
+    .home .nav-link ul{
+        gap:30px;
+    }
+    .home .nav-link a,
+    .home .nav-link button{
+        font-size:13px;
+    }
+    .home .nav-link button{
+        padding-left:0px;
+    }
+    .home .title{
+        margin-bottom:20px;
+    }
+    .home .subtitle{
+        margin-bottom:20px;
+    }
+    .home .hero-description{
+        padding-top:85px;
+    }
+    nav img{
+        width:150px;
+    }
+    .title{
+        font-size:32px;
+        font-family: "Jomolhari", serif;
+        font-weight: 400;
+        color:#fff;
+        margin-bottom:20px;
+    }
+    .subtitle{
+        font-size:16px;
+        font-weight:400;
+        margin-bottom:22px;
+    }
+    .home-card img{
+        width:230px;
+    }
+    .home-card{
+        padding:0 5px;
+    }
+    .home-card .card-title{
+        font-size:18px;
+    }
+    .home-card .card-3 .card-title {
+        margin-bottom: 25px;
+        margin-top:70px;
+    }
+    .home-card .card-3 .card-subtitle {
+        margin-bottom: 30px;
+    }
+    .cloud-cards .col-4{
+        width:100%;
+    }
+    .cloud-cards{
+        gap:40px;
+    }
+    .cloud{
+        padding:30px 0;
+    }
+    .cloud-title-top{
+        font-size: 15px;
+    }
+    .cloud-title{
+        font-size: 22px;
+        margin-bottom:18px;
+    }
+    .cloud-subtitle{
+        font-size:12px;
+        text-align:center;
+    }
+    
+    .cloud-card{
+        padding:15px 30px;
+    }
+    .cloud-card img{
+        margin-bottom:15px;
+    }
+    .cd-2 button{
+        margin-top:25px;
+    }
+    .home .swipper-title{
+        padding-left:30px;
+        justify-content: left;
+    }
+    .home .swipper-title p:first-of-type{
+        font-size: 24px;
+        margin:0;
+        margin-bottom:20px;
+    }
+    .home .swipper-detail{
+        justify-content: left;
+        gap:20px 80px;
+    }
+    .swipper-detail .col-3 {
+        width: 60%;
+    }
+    .taxi-app{
+        padding:0;
+    }
+    .taxi-app img{
+        width:100%;
+    }
+    .taxi-app-description p{
+        font-size:20px;
+    }
+    .taxi-app-description button{
+        border:2px solid #fff;
+        font-size:15px;
+        margin-left:40px;
+        margin-top:15px;
+        background-color: transparent;
+    }
+    .taxi-app{
+        position:relative;
+    }
+    .taxi-app-description{
+        position:absolute;
+        top:40%;
+        right:5%;
+        padding:0;
+        border:2px solid #fff;
+        padding:8px;
+        width:60%;
+    }
+    .taxi-app-description p{
+        font-size:15px;
+    }
+    .taxi-app-description button{
+        font-size:12px;
+    }
+
+    /****************** Overview   ********************/
+    
+    .overview .hero-description {
+        position:absolute;
+        top:40%;
+        left:20px;
+        width:90%;
+    }
+    .overview .hero-description .title{
+        font-size:20px;
+        color:#f2f3f7 !important;
+    }
+    .overview .hero-description .subtitle{
+        font-size:14px;
+        color:#f2f3f7 !important;
+    }
+    .overview .hero img {
+        width: 100%;
+        object-fit: cover;
+        object-position:19% 51%;
+        filter: brightness(0.6);
+    }
+    .overview .index-3 .card-3 .card-img {
+        margin-bottom: 12px;
+    }
+    .overview .card-3 .card-title {
+        margin-bottom: 12px;
+        margin-top: 15px;
+    }
+    .overview .index-3 .card {
+        padding: 20px;
+    }
+    .overview .card-3 .card-subtitle {
+        margin-bottom: 12px;
+    }
+    .overview .card-1 .card-subtitle{
+        margin-bottom:12px;
+    }
+    .index-3 .card-img {
+        display:block;
+    }
+    .index-3 .card-img img{
+        width:100%;
+    }
+    .nvidia-top-left-buttons button{
+        border:1px solid #fff;
+        font-size:12px;
+    }
+    .nvidia-top-left-buttons{
+        gap:10px;
+        flex-wrap:nowrap;
+    }
+    .nvidia .nvidia-top{
+        padding:40px 0;
+        justify-content: space-between;
+    }
+    .nvidia-top-left p{
+        font-size:18px;
+        margin-bottom:22px;
+    }
+    .nvidia-top-right p{
+        font-size:13px;
+    }
+    .nvidia-top-left,
+    .nvidia-top-right{
+        width:100%;
+    }
+    .nvidia-top-left{
+        margin-bottom:30px;
+    }
+    .nvidia button {
+        font-size: 11px;
+        padding: 9px 6px;
+    }
+    .video{
+        width:100%;
+    }
+    .videos{
+        gap:40px;
+    }
+    .video img{
+        width:100%;
+    }
+    .video-box{
+        padding:69px 0px;
+    }
+    .video-buttons{
+        margin-top:14px;
+        gap:16px;
+    }
+    .video-thumb{
+        position:relative;
+    }
+    .video-thumb img{
+        filter: brightness(80%);
+    }
+    .video-description{
+        bottom:17px;
+        left:0px;
+        padding-left:5px;
+        padding-right:15px;
+    }
+    .video-description p{
+        font-size:18px;
+    }
+    .videos{
+        padding:0 5px;
+    }
+    .play-button{
+        width:50px;
+        height:50px;
+    }
+    .middle{
+        padding-left:20px;
+    }
+    .middle .hero-bottom-text{
+        width:1000%;
+        margin-bottom:15px;
+        padding:0px;
+    }
+    .middle .hero-bottom-text p{
+        font-size:16px;
+    }
+    .distribute{
+        padding:0 5px;
+        padding-top:46px;
+        padding-bottom:43px;
+        margin-top:50px;
+    }
+    .distribute-title{
+        font-size:23px;
+        margin:0;
+        width:100%;
+        margin-bottom:20px;
+        text-align: left;
+    }
+    .distribute-subtitle{
+        font-size:15px;
+        margin:0;
+        margin-bottom:45px;
+        text-align:left;
+        width:100%;
+    }
+    .distribute-text{
+        text-align: center;
+    }
+    .distribute-bottom{
+        flex-wrap: wrap;
+        gap:60px;
+    }
+    .distribute-left,
+    .distribute-right{
+        width:100%;
+    }
+    .distribute-left{
+        padding-left:20px;
+    }
+    .distribute-card{
+        margin-top:20px;
+        padding:15px 0;
+        padding-left:20px;
+        padding-right:20px;
+        flex-wrap: nowrap;
+    }
+    .distribute-right{
+        margin-left:20px;
+    }
+    .distribute-right {
+        padding-left: 0px;
+    }
+    .distribute-right img{
+        margin-bottom:20px;
+        width:100%;
+    }
+    .distribute-right button{
+        margin:0 auto;
+    }
+    .distribute-right-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .d-card-title{
+        font-size:18px;
+    }
+    .d-card{
+        font-size:14px;
+    }
+    .ser-con{
+        width:100%;
+    }
+    .service{
+        padding:40px 15px;
+    }
+    .service-title{
+        font-family: Inter;
+        font-size:18px;
+        margin-bottom:25px;
+    }
+    .service-subtitle{
+        font-family: Inter;
+        font-size: 12px;
+        margin-bottom:30px;
+    }
+    .service-buttons button{
+        padding:7px 8px;
+        font-size:12px;
+    }
+    .service-buttons{
+        gap:10px;
+    }
+    .service-dropdown{
+        background-color: #D9D9D9;
+        flex-wrap: wrap;
+        gap:10px;
+        padding:10px;
+        margin-top:11px;
+        justify-content:space-evenly;
+    }
+    .select{
+        padding:10px 29px;
+        cursor:pointer;
+        width:90%;
+        text-wrap: wrap;
+        word-break:normal;
+        word-wrap:normal;
+        text-align: left;
+        font-size: 12px;
+        white-space:nowrap;
+        text-overflow:unset;
+    }
+    .select-last{
+        width:90%;
+    }
+    .single-drop{
+        border-radius: 4px;
+        border: 1px solid #000;
+        background: #FFF;
+        margin-top:12px;
+        padding:5px 0;
+    }
+    .single-drop .col-10,
+    .single-drop .col-2{
+        display:flex;
+        text-align:center;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .single-drop p{
+        font-size:12px;
+    }
+    .run{
+        background-color: #5C50E3;
+        padding:0 15px;
+        padding-top:71px;
+        padding-bottom: 52px;
+    }
+    .run .container{
+        width:100%;
+    }
+    .run-top{
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:23px;
+    }
+    .run-title{
+        font-size:22px;
+        font-family: Inter;
+        margin-bottom:20px;
+    }
+    .run-top a{
+        font-weight:500;
+        text-decoration: underline;
+    }
+    .run-subtitle{
+        font-size:12px;
+        margin-bottom:15px;
+    }
+    .run-bottom-left{
+        padding:0px;
+        width:100%;
+        margin-top:40px;
+    }
+    .run-bottom-right{
+        width:100%;
+        margin-top:40px;
+    }
+    .run-card{
+        width:100%;
+    }
+    .map .run-subtitle{
+        margin-bottom:18px;
+    }
+    .map .container{
+        width:100%;
+    }
+    .map .run-bottom{
+        width:100%;
+    }
+    .map .run-bottom img{
+        width:100%;
+    }
+    .run-button{
+        gap:15px;
+        justify-content: flex-end;
+        flex-wrap:nowrap;
+    }
+    .run-button button{
+        font-size:11px;
+    }
+    .run-button img{
+        width:100%;
+    }
+    .run-button .calculate{
+        color:#5C50E3;
+    }
+    .vs{
+        border:1px solid #fff;
+        background-color: transparent;
+    }
+    .run-card{
+        padding:19px 15px;
+        margin-bottom:27px;
+    }
+    .run-card p:nth-of-type(2){
+        font-size:38px;
+        margin:14px 0;
+    }
+    .map .container{
+        width:100%;
+    }
+    .map{
+        background-color: #ECECEA;
+    }
+    .run-bottom-right{
+        position:relative;
+        display:flex;
+        align-items:end;
+        justify-content: baseline;
+    }
+    .run-bottom-right img{
+        width:100%;
+    }
+    .solutions{
+        padding:69px 15px;
+    }
+    .solutions .container{
+        width:100%;
+    }
+    
+    .solution .run-title,
+    .solution .run-subtitle{
+        text-align:left;
+    }
+    .solution .run-subtitle{
+        width:97%;
+        margin:0;
+        margin-top:18px;
+        margin-bottom:40px;
+    }
+    .tabs{
+        gap:12px;
+        margin-bottom:20px;
+    }
+    .tab button{
+        background-color: #ECECEC;
+        color:#000;
+        font-size:12px;
+    }
+    .tab-content .content {
+        display: none;
+    }
+    .tab-content .content.active {
+        display: block;
+    }
+    .solutions .card .card-title,
+    .solutions .card .card-subtitle{
+        text-align:left;
+    }
+    .solutions .card .card-subtitle{
+        font-size:12px;
+    }
+    .solutions .cards{
+        padding-top:25px;
+        padding-bottom:0px;
+    }
+    .solutions .card button{
+        margin:0px;
+    }
+    .solutions .index-3 .card-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }   
+    .solutions .index-3 .card-3 .card-subtitle {
+        margin-bottom:20px;
+    }
+    .solutions .index-3 .card-1 .card-subtitle {
+        margin-bottom:60px;
+    }
+    .bank-card .col-6{
+        padding:0px;
+    }
+    .solution .card{
+        padding-left:21px;
+        padding-right:21px;
+        width:100%;
+    }
+    .bank-img{
+        position:relative;
+        border-radius:8px;
+    }
+    .bank-img .d-bank{
+        width:100%;
+        border-radius:8px;
+    }
+    .bank-text{
+        position:absolute;
+        bottom:10px;
+        right:12px;
+        width:55%;
+        text-align:center;
+        background:#ffffff93;
+        padding:0 8px;
+        padding-top:8px;
+        padding-bottom:8px;
+        border-radius: 8px;
+    }
+    .bank-card .col-6{
+        width:100%;
+    }
+    .bank-card .col-6 .card{
+        margin-top:0px;
+    }
+    .bank-text img{
+        margin-bottom:10px;
+        width:140px;
+    }
+    .bank-text p{
+        font-size:10px;
+    }
+    .solutions .index-3 .card-1 .card-subtitle {
+        margin-bottom: 25px;
     }
 
 }
