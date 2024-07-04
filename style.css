@@ -408,6 +408,7 @@ button:hover{
 
 .footer{
     background-color:#00044B;
+    padding-bottom:20px;
 }
 .footer-top{
     align-items: center;
@@ -430,6 +431,7 @@ button:hover{
 }
 .footer-bottom{
     gap:20px;
+    padding-left:20px;
 }
 
 /************ generative-ai ***********/
